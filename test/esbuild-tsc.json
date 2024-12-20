@@ -1,0 +1,6 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jeremiasbots/esbuild-tsc/refs/heads/main/esbuild-tsc-schema.json",
+  "file": "index.ts",
+  "tsconfig": "./tsconfig.json",
+  "engine": "node"
+}

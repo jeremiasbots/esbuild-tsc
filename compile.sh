@@ -1,0 +1,9 @@
+GOOS="android" GOARCH="arm64" go build -o bin/esbuild-tsc-android-arm64
+GOOS="darwin" GOARCH="amd64" go build -o bin/esbuild-tsc-darwin-amd64
+GOOS="darwin" GOARCH="arm64" go build -o bin/esbuild-tsc-darwin-arm64
+GOOS="linux" GOARCH="arm" go build -o bin/esbuild-tsc-linux-arm
+GOOS="linux" GOARCH="arm64" go build -o bin/esbuild-tsc-linux-arm64
+GOOS="linux" GOARCH="amd64" go build -o bin/esbuild-tsc-linux-amd64
+GOOS="windows" GOARCH="amd64" go build -o bin/esbuild-tsc-windows-amd64.exe
+GOOS="windows" GOARCH="arm" go build -o bin/esbuild-tsc-windows-arm.exe
+GOOS="windows" GOARCH="arm64" go build -o bin/esbuild-tsc-windows-arm64.exe
