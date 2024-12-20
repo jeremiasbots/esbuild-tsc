@@ -11,6 +11,8 @@ This tool is used to transform from TypeScript to JavaScript and run the code wi
 }
 ```
 
-To use the tool type `esbuild-tsc tar` (do all the alias steps first, the binaries for each architecture and system are in the bin/ folder), see the example of test/
+To use the tool type `esbuild-tsc tar` (do all the alias steps first, the binaries for each architecture and system are in the bin/ folder), see the example of cmd/test
+
+To create an example project use `esbuild-tsc create <name>`
 
 Created by jeremiasbots/devep
