@@ -43,7 +43,7 @@ printMsg("Hello World!");`), 0755)
 		err := os.WriteFile(fmt.Sprintf("%s/esbuild-tsc.json", projectName), []byte(`{
   "$schema": "https://raw.githubusercontent.com/jeremiasbots/esbuild-tsc/refs/heads/main/esbuild-tsc-schema.json",
   "file": "index.ts",
-  "engine": "bun",
+  "engine": "node",
   "tsconfig": "./tsconfig.json"
 }`), 0755)
 		if err != nil {

@@ -6,8 +6,8 @@ This tool is used to transform from TypeScript to JavaScript and run the code wi
 {
   "$schema": "https://raw.githubusercontent.com/jeremiasbots/esbuild-tsc/refs/heads/main/esbuild-tsc-schema.json",
   "file": "index.ts",
-  "tsconfig": "./tsconfig.json",
-  "engine": "node"
+  "engine": "node",
+  "tsconfig": "./tsconfig.json"
 }
 ```
 
